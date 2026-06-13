@@ -6,3 +6,7 @@ qiime tools import \
   --input-path manifest.tsv \
   --output-path demux.qza \
   --input-format PairedEndFastqManifestPhred33V2
+
+#for single reads (changes in the above code)
+#--type[SequenceWithQuality]
+#--input-format SingleEndFastqManifestPhred33V2
