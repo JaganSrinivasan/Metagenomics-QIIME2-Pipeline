@@ -32,8 +32,7 @@ To run this pipeline, you need to have **QIIME2** installed. We recommend using 
 
 ## 🏃‍♂️ How to Run
 
-Step 1:
-   Quality assessment of the Raw reads By fastQC
+**Step 1: **Quality assessment of the Raw reads By fastQC
 
 Step 2:
    Trimming and Filtering (Fastp/Trimmomatic)
