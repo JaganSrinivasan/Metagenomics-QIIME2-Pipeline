@@ -1,4 +1,6 @@
 id  forward-absolute-path  reverse-absolute-path
-sample_id_1  absolute/filepath/to/forwardreads  absolute/filepath/to/reversereads
-sample_id_2  absolute/filepath/to/forwardreads  absolute/filepath/to/reversereads
-sample_id_n  absolute/filepath/to/forwardreads  absolute/filepath/to/reversereads
+sample_id_1  absolute/filepath/to/forwardreads.fastq.gz  absolute/filepath/to/reversereads.fastq.gz
+sample_id_2  absolute/filepath/to/forwardreads.fastq.gz  absolute/filepath/to/reversereads.fastq.gz
+sample_id_n  absolute/filepath/to/forwardreads.fastq.gz  absolute/filepath/to/reversereads.fastq.gz
+
+#for single reads only absolute-path
