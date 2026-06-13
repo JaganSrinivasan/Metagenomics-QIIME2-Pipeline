@@ -6,7 +6,7 @@ A step-by-step bioinformatics pipeline using **QIIME2** to analyze and character
 
 ## 📌 Overview
 
-This repository contains the scripts, workflows, and documentation required to process raw sequencing reads into meaningful microbial diversity insights. The pipeline covers everything from quality control and demultiplexing to alpha and beta diversity analyses.
+This repository contains the scripts and workflows required to process raw sequencing reads into meaningful microbial diversity insights. The pipeline covers everything from quality control and demultiplexing to alpha and beta diversity analyses.
 
 ## 🚀 Features
 
