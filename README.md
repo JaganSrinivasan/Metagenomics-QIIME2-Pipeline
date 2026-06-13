@@ -23,6 +23,5 @@ To run this pipeline, you need to have **QIIME2** installed. We recommend using 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/JaganSrinivasan/Metagenomics-QIIME2-Pipeline
-.git
+   git clone https://github.com/JaganSrinivasan/Metagenomics-QIIME2-Pipeline.git
    cd Metagenomics-QIIME2-Pipeline
