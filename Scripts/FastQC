@@ -1,7 +1,0 @@
-#Quality Assessment using FastQC
-
-#For single end read
-fastqc file.fastq.gz -o out_dir
-
-#for paired end reads
-fastqc file_R1.fastq.gz file_R2.fastq.gz -o out_dir
