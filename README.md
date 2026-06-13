@@ -1,6 +1,6 @@
 # QIIME2 Microbial Diversity Pipeline
 
-A step-by-step bioinformatics pipeline using **QIIME2** to analyze and characterize the diversity of microbial communities from marker gene sequencing data (e.g., 16S rRNA).
+A step-by-step bioinformatics pipeline using **QIIME2 (1.4.2)** to analyze and characterize the diversity of microbial communities from marker gene sequencing data (e.g., 16S rRNA).
 
 ---
 
