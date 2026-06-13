@@ -52,7 +52,9 @@ Step 8:
    ---
 
 ## 📊 Outputs & Visualizations
-Key outputs generated in the core-metrics-results/ directory include:
+Key outputs generated:
+
+taxa-bar-plot.qzv - Taxonomy bar plot.
 
 shannon_vector.qzv - Alpha diversity metrics (Shannon Index).
 
