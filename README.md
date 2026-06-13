@@ -34,25 +34,25 @@ To run this pipeline, you need to have **QIIME2** installed. We recommend using 
 
 * **Step 1:** Quality assessment of the Raw reads By fastQC
 
-Step 2:
+* **Step 2:
    Trimming and Filtering (Fastp/Trimmomatic)
 
-Step 3:
+* **Step 3:
    Importing a .fastq.gz file into QIIME2 Artifact (.qza)
 
-Step 4:
+* **Step 4:
    Demultiplex (Only if your data is multiplexed)
 
-Step 5:
+* **Step 5:
    Quality filter and generate Amplicon Sequence Variants (ASVs) using DADA2
 
-Step 6:
+* **Step 6:
    Taxonomy Identification by using Classifiers
 
-Step 7:
+* **Step 7:
    Phylogenic tree construction
 
-Step 8:
+* **Step 8:
    Core diversity Analysis (Alpha and Bete diversity)
 
    ---
