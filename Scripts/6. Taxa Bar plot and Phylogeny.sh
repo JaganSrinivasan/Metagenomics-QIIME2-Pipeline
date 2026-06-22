@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 #Tax-Bar-Plot
 
 qiime taxa barplot \
