@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 #---------- LEVEL 1 (Kingdom) ----------
 qiime taxa collapse \
   --i-table table.qza \
@@ -15,6 +17,8 @@ biom convert \
   -i absfreq/feature-table_absfreq_level1.biom/feature-table.biom \
   -o absfreq/feature-table_absfreq_level1.tsv \
   --to-tsv --table-type 'Taxon table'
+
+echo "level 1 completed."
 
 #---------- LEVEL 2 (Phylum) ----------
 qiime taxa collapse \
@@ -32,6 +36,8 @@ biom convert \
   -o absfreq/feature-table_absfreq_level2.tsv \
   --to-tsv --table-type 'Taxon table'
 
+echo "level 2 completed."
+
 #---------- LEVEL 3 (Class) ----------
 qiime taxa collapse \
   --i-table table.qza \
@@ -47,6 +53,8 @@ biom convert \
   -i absfreq/feature-table_absfreq_level3.biom/feature-table.biom \
   -o absfreq/feature-table_absfreq_level3.tsv \
   --to-tsv --table-type 'Taxon table'
+
+echo "level 3 completed."
  
 #---------- LEVEL 4 (Order) ----------
 qiime taxa collapse \
@@ -63,6 +71,8 @@ biom convert \
   -i absfreq/feature-table_absfreq_level4.biom/feature-table.biom \
   -o absfreq/feature-table_absfreq_level4.tsv \
   --to-tsv --table-type 'Taxon table'
+
+echo "level 4 completed."
  
 #---------- LEVEL 5 (Family) ----------
 qiime taxa collapse \
@@ -79,6 +89,8 @@ biom convert \
   -i absfreq/feature-table_absfreq_level5.biom/feature-table.biom \
   -o absfreq/feature-table_absfreq_level5.tsv \
   --to-tsv --table-type 'Taxon table'
+
+echo "level 5 completed."
  
 #---------- LEVEL 6 (Genus) ----------
 qiime taxa collapse \
@@ -95,6 +107,8 @@ biom convert \
   -i absfreq/feature-table_absfreq_level6.biom/feature-table.biom \
   -o absfreq/feature-table_absfreq_level6.tsv \
   --to-tsv --table-type 'Taxon table'
+
+echo "level 6 completed."
  
 #---------- LEVEL 7 (Species) ----------
 qiime taxa collapse \
@@ -111,3 +125,5 @@ biom convert \
   -i absfreq/feature-table_absfreq_level7.biom/feature-table.biom \
   -o absfreq/feature-table_absfreq_level7.tsv \
   --to-tsv --table-type 'Taxon table'
+
+echo "level 7 completed."
