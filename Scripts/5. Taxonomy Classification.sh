@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 # Step 5: Assign taxonomy and generate visualization
 
 echo "Running taxonomic classification..."
