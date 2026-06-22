@@ -1,4 +1,4 @@
-!#bin/bash
+!/#bin/bash
 
 qiime diversity alpha-rarefaction \
   --i-table table.qza \
