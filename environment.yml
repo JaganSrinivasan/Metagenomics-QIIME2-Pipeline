@@ -1,4 +1,4 @@
-name: qiime2
+name: qiime2 (v1.4.2)
 channels:
   -conda-forge
   -bioconda
