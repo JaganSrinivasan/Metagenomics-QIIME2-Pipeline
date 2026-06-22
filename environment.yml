@@ -4,4 +4,4 @@ channels:
   -bioconda
   -defaults
 dependencies:
-  
+  #whatever needed for running QIIME2 (1.4.2) without error.
