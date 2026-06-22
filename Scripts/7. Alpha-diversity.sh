@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 qiime diversity alpha-rarefaction \
   --i-table table.qza \
   --i-phylogeny rooted-tree.qza \
